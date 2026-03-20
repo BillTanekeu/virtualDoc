@@ -1,0 +1,2193 @@
+{
+    "gravite": {
+        "name": "gravite",
+        "code_question": "gravite",
+        "data_type": "C",
+        "is_antecedent": false,
+        "possible-values": [
+            "legere",
+            "moderee",
+            "severe"
+        ],
+        "value_meaning": {
+            "legere": {
+                "fr": "legere",
+                "en": "legere"
+            },
+            "moderee": {
+                "fr": "moderee",
+                "en": "moderee"
+            },
+            "severe": {
+                "fr": "severe",
+                "en": "severe"
+            }
+        },
+        "question_fr": "Concernant 'gravite', quelle est votre situation ?",
+        "question_en": "Regarding 'gravite', what is your situation?",
+        "propositions_fr": [
+            {
+                "label": "legere",
+                "value": "legere"
+            },
+            {
+                "label": "moderee",
+                "value": "moderee"
+            },
+            {
+                "label": "severe",
+                "value": "severe"
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "legere",
+                "value": "legere"
+            },
+            {
+                "label": "moderee",
+                "value": "moderee"
+            },
+            {
+                "label": "severe",
+                "value": "severe"
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "duree_symptomes_jours": {
+        "name": "duree_symptomes_jours",
+        "code_question": "duree_symptomes_jours",
+        "data_type": "C",
+        "is_antecedent": false,
+        "possible-values": [
+            "courte",
+            "semaine",
+            "longue",
+            "chronique"
+        ],
+        "value_meaning": {
+            "courte": {
+                "fr": "courte",
+                "en": "courte"
+            },
+            "semaine": {
+                "fr": "semaine",
+                "en": "semaine"
+            },
+            "longue": {
+                "fr": "longue",
+                "en": "longue"
+            },
+            "chronique": {
+                "fr": "chronique",
+                "en": "chronique"
+            }
+        },
+        "question_fr": "Concernant 'duree symptomes jours', quelle est votre situation ?",
+        "question_en": "Regarding 'duree symptomes jours', what is your situation?",
+        "propositions_fr": [
+            {
+                "label": "courte",
+                "value": "courte"
+            },
+            {
+                "label": "semaine",
+                "value": "semaine"
+            },
+            {
+                "label": "longue",
+                "value": "longue"
+            },
+            {
+                "label": "chronique",
+                "value": "chronique"
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "courte",
+                "value": "courte"
+            },
+            {
+                "label": "semaine",
+                "value": "semaine"
+            },
+            {
+                "label": "longue",
+                "value": "longue"
+            },
+            {
+                "label": "chronique",
+                "value": "chronique"
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "essoufflement": {
+        "name": "essoufflement",
+        "code_question": "essoufflement",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : essoufflement ?",
+        "question_en": "Do you experience this symptom: essoufflement?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "toux": {
+        "name": "toux",
+        "code_question": "toux",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : toux ?",
+        "question_en": "Do you experience this symptom: toux?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "oppression thoracique": {
+        "name": "oppression thoracique",
+        "code_question": "oppression thoracique",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : oppression thoracique ?",
+        "question_en": "Do you experience this symptom: oppression thoracique?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "difficultes respiratoires nocturnes": {
+        "name": "difficultes respiratoires nocturnes",
+        "code_question": "difficultes respiratoires nocturnes",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : difficultes respiratoires nocturnes ?",
+        "question_en": "Do you experience this symptom: difficultes respiratoires nocturnes?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "Allergies": {
+        "name": "Allergies",
+        "code_question": "Allergies",
+        "data_type": "B",
+        "is_antecedent": true,
+        "question_fr": "Avez-vous cet antécédent : Allergies ?",
+        "question_en": "Do you have this medical history: Allergies?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "maux de tete severes": {
+        "name": "maux de tete severes",
+        "code_question": "maux de tete severes",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : maux de tete severes ?",
+        "question_en": "Do you experience this symptom: maux de tete severes?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "fievre elevee": {
+        "name": "fievre elevee",
+        "code_question": "fievre elevee",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : fievre elevee ?",
+        "question_en": "Do you experience this symptom: fievre elevee?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "vomissements": {
+        "name": "vomissements",
+        "code_question": "vomissements",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : vomissements ?",
+        "question_en": "Do you experience this symptom: vomissements?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "nausees": {
+        "name": "nausees",
+        "code_question": "nausees",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : nausees ?",
+        "question_en": "Do you experience this symptom: nausees?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "diarrhee": {
+        "name": "diarrhee",
+        "code_question": "diarrhee",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : diarrhee ?",
+        "question_en": "Do you experience this symptom: diarrhee?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "fatigue": {
+        "name": "fatigue",
+        "code_question": "fatigue",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : fatigue ?",
+        "question_en": "Do you experience this symptom: fatigue?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "toux persistante": {
+        "name": "toux persistante",
+        "code_question": "toux persistante",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : toux persistante ?",
+        "question_en": "Do you experience this symptom: toux persistante?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "sueurs nocturnes": {
+        "name": "sueurs nocturnes",
+        "code_question": "sueurs nocturnes",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : sueurs nocturnes ?",
+        "question_en": "Do you experience this symptom: sueurs nocturnes?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "perte de poids": {
+        "name": "perte de poids",
+        "code_question": "perte de poids",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : perte de poids ?",
+        "question_en": "Do you experience this symptom: perte de poids?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "perte d'appetit": {
+        "name": "perte d'appetit",
+        "code_question": "perte d'appetit",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : perte d'appetit ?",
+        "question_en": "Do you experience this symptom: perte d'appetit?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "urine foncee": {
+        "name": "urine foncee",
+        "code_question": "urine foncee",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : urine foncee ?",
+        "question_en": "Do you experience this symptom: urine foncee?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "Diabete": {
+        "name": "Diabete",
+        "code_question": "Diabete",
+        "data_type": "B",
+        "is_antecedent": true,
+        "question_fr": "Avez-vous cet antécédent : Diabete ?",
+        "question_en": "Do you have this medical history: Diabete?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "vertiges": {
+        "name": "vertiges",
+        "code_question": "vertiges",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : vertiges ?",
+        "question_en": "Do you experience this symptom: vertiges?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "vision floue": {
+        "name": "vision floue",
+        "code_question": "vision floue",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : vision floue ?",
+        "question_en": "Do you experience this symptom: vision floue?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "constipation": {
+        "name": "constipation",
+        "code_question": "constipation",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : constipation ?",
+        "question_en": "Do you experience this symptom: constipation?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "douleurs abdominales": {
+        "name": "douleurs abdominales",
+        "code_question": "douleurs abdominales",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : douleurs abdominales ?",
+        "question_en": "Do you experience this symptom: douleurs abdominales?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "maux de tete": {
+        "name": "maux de tete",
+        "code_question": "maux de tete",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : maux de tete ?",
+        "question_en": "Do you experience this symptom: maux de tete?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "fievre legere": {
+        "name": "fievre legere",
+        "code_question": "fievre legere",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : fievre legere ?",
+        "question_en": "Do you experience this symptom: fievre legere?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "deshydratation": {
+        "name": "deshydratation",
+        "code_question": "deshydratation",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : deshydratation ?",
+        "question_en": "Do you experience this symptom: deshydratation?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "crampes abdominales": {
+        "name": "crampes abdominales",
+        "code_question": "crampes abdominales",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : crampes abdominales ?",
+        "question_en": "Do you experience this symptom: crampes abdominales?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "paleur": {
+        "name": "paleur",
+        "code_question": "paleur",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : paleur ?",
+        "question_en": "Do you experience this symptom: paleur?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "douleurs articulaires": {
+        "name": "douleurs articulaires",
+        "code_question": "douleurs articulaires",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : douleurs articulaires ?",
+        "question_en": "Do you experience this symptom: douleurs articulaires?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "douleurs musculaires": {
+        "name": "douleurs musculaires",
+        "code_question": "douleurs musculaires",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : douleurs musculaires ?",
+        "question_en": "Do you experience this symptom: douleurs musculaires?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "fievre": {
+        "name": "fievre",
+        "code_question": "fievre",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : fievre ?",
+        "question_en": "Do you experience this symptom: fievre?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "Asthme": {
+        "name": "Asthme",
+        "code_question": "Asthme",
+        "data_type": "B",
+        "is_antecedent": true,
+        "question_fr": "Avez-vous cet antécédent : Asthme ?",
+        "question_en": "Do you have this medical history: Asthme?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "eruption cutanee": {
+        "name": "eruption cutanee",
+        "code_question": "eruption cutanee",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : eruption cutanee ?",
+        "question_en": "Do you experience this symptom: eruption cutanee?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "photophobie": {
+        "name": "photophobie",
+        "code_question": "photophobie",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : photophobie ?",
+        "question_en": "Do you experience this symptom: photophobie?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "confusion": {
+        "name": "confusion",
+        "code_question": "confusion",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : confusion ?",
+        "question_en": "Do you experience this symptom: confusion?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "raideur de la nuque": {
+        "name": "raideur de la nuque",
+        "code_question": "raideur de la nuque",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : raideur de la nuque ?",
+        "question_en": "Do you experience this symptom: raideur de la nuque?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "urination frequente": {
+        "name": "urination frequente",
+        "code_question": "urination frequente",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : urination frequente ?",
+        "question_en": "Do you experience this symptom: urination frequente?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "soif excessive": {
+        "name": "soif excessive",
+        "code_question": "soif excessive",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : soif excessive ?",
+        "question_en": "Do you experience this symptom: soif excessive?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "faim constante": {
+        "name": "faim constante",
+        "code_question": "faim constante",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : faim constante ?",
+        "question_en": "Do you experience this symptom: faim constante?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "difficultes respiratoires": {
+        "name": "difficultes respiratoires",
+        "code_question": "difficultes respiratoires",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : difficultes respiratoires ?",
+        "question_en": "Do you experience this symptom: difficultes respiratoires?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "douleur thoracique": {
+        "name": "douleur thoracique",
+        "code_question": "douleur thoracique",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : douleur thoracique ?",
+        "question_en": "Do you experience this symptom: douleur thoracique?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "congestion nasale": {
+        "name": "congestion nasale",
+        "code_question": "congestion nasale",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : congestion nasale ?",
+        "question_en": "Do you experience this symptom: congestion nasale?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "rougeurs": {
+        "name": "rougeurs",
+        "code_question": "rougeurs",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : rougeurs ?",
+        "question_en": "Do you experience this symptom: rougeurs?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "demangeaisons": {
+        "name": "demangeaisons",
+        "code_question": "demangeaisons",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : demangeaisons ?",
+        "question_en": "Do you experience this symptom: demangeaisons?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "douleur locale": {
+        "name": "douleur locale",
+        "code_question": "douleur locale",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : douleur locale ?",
+        "question_en": "Do you experience this symptom: douleur locale?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "gonflement": {
+        "name": "gonflement",
+        "code_question": "gonflement",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : gonflement ?",
+        "question_en": "Do you experience this symptom: gonflement?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "plaies": {
+        "name": "plaies",
+        "code_question": "plaies",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : plaies ?",
+        "question_en": "Do you experience this symptom: plaies?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "faiblesse": {
+        "name": "faiblesse",
+        "code_question": "faiblesse",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : faiblesse ?",
+        "question_en": "Do you experience this symptom: faiblesse?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "palpitations": {
+        "name": "palpitations",
+        "code_question": "palpitations",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : palpitations ?",
+        "question_en": "Do you experience this symptom: palpitations?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "douleur pelvienne": {
+        "name": "douleur pelvienne",
+        "code_question": "douleur pelvienne",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : douleur pelvienne ?",
+        "question_en": "Do you experience this symptom: douleur pelvienne?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "urine trouble": {
+        "name": "urine trouble",
+        "code_question": "urine trouble",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : urine trouble ?",
+        "question_en": "Do you experience this symptom: urine trouble?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "Hypertension": {
+        "name": "Hypertension",
+        "code_question": "Hypertension",
+        "data_type": "B",
+        "is_antecedent": true,
+        "question_fr": "Avez-vous cet antécédent : Hypertension ?",
+        "question_en": "Do you have this medical history: Hypertension?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "brulures mictionnelles": {
+        "name": "brulures mictionnelles",
+        "code_question": "brulures mictionnelles",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : brulures mictionnelles ?",
+        "question_en": "Do you experience this symptom: brulures mictionnelles?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "urgence urinaire": {
+        "name": "urgence urinaire",
+        "code_question": "urgence urinaire",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : urgence urinaire ?",
+        "question_en": "Do you experience this symptom: urgence urinaire?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "douleur abdominale": {
+        "name": "douleur abdominale",
+        "code_question": "douleur abdominale",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : douleur abdominale ?",
+        "question_en": "Do you experience this symptom: douleur abdominale?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "fievre prolongee": {
+        "name": "fievre prolongee",
+        "code_question": "fievre prolongee",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : fievre prolongee ?",
+        "question_en": "Do you experience this symptom: fievre prolongee?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "frissons": {
+        "name": "frissons",
+        "code_question": "frissons",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : frissons ?",
+        "question_en": "Do you experience this symptom: frissons?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "jaunisse": {
+        "name": "jaunisse",
+        "code_question": "jaunisse",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : jaunisse ?",
+        "question_en": "Do you experience this symptom: jaunisse?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    },
+    "sifflement respiratoire": {
+        "name": "sifflement respiratoire",
+        "code_question": "sifflement respiratoire",
+        "data_type": "B",
+        "is_antecedent": false,
+        "question_fr": "Ressentez-vous ce symptôme : sifflement respiratoire ?",
+        "question_en": "Do you experience this symptom: sifflement respiratoire?",
+        "propositions_fr": [
+            {
+                "label": "Oui",
+                "value": 1
+            },
+            {
+                "label": "Non",
+                "value": -1
+            },
+            {
+                "label": "Ne sait pas",
+                "value": 0
+            }
+        ],
+        "propositions_en": [
+            {
+                "label": "Yes",
+                "value": 1
+            },
+            {
+                "label": "No",
+                "value": -1
+            },
+            {
+                "label": "Don't know",
+                "value": 0
+            }
+        ]
+    }
+}

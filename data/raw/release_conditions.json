@@ -1,0 +1,346 @@
+{
+    "Asthme": {
+        "condition_name": "Asthme",
+        "cond-name-fr": "Asthme",
+        "cond-name-eng": "Asthme",
+        "icd10-id": "Asthme",
+        "symptoms": {
+            "essoufflement": {},
+            "toux": {},
+            "oppression thoracique": {},
+            "difficultes respiratoires nocturnes": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "sifflement respiratoire": {}
+        },
+        "antecedents": {
+            "Allergies": {},
+            "Diabete": {},
+            "Asthme": {},
+            "Hypertension": {}
+        },
+        "severity": 1
+    },
+    "Meningite": {
+        "condition_name": "Meningite",
+        "cond-name-fr": "Meningite",
+        "cond-name-eng": "Meningite",
+        "icd10-id": "Meningite",
+        "symptoms": {
+            "maux de tete severes": {},
+            "fievre elevee": {},
+            "vomissements": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "photophobie": {},
+            "confusion": {},
+            "raideur de la nuque": {}
+        },
+        "antecedents": {
+            "Diabete": {},
+            "Hypertension": {},
+            "Asthme": {},
+            "Allergies": {}
+        },
+        "severity": 1
+    },
+    "Gastro-enterite": {
+        "condition_name": "Gastro-enterite",
+        "cond-name-fr": "Gastro-enterite",
+        "cond-name-eng": "Gastro-enterite",
+        "icd10-id": "Gastro-enterite",
+        "symptoms": {
+            "nausees": {},
+            "diarrhee": {},
+            "vomissements": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "fievre legere": {},
+            "deshydratation": {},
+            "crampes abdominales": {}
+        },
+        "antecedents": {
+            "Allergies": {},
+            "Asthme": {},
+            "Diabete": {},
+            "Hypertension": {}
+        },
+        "severity": 1
+    },
+    "Tuberculose": {
+        "condition_name": "Tuberculose",
+        "cond-name-fr": "Tuberculose",
+        "cond-name-eng": "Tuberculose",
+        "icd10-id": "Tuberculose",
+        "symptoms": {
+            "fatigue": {},
+            "toux persistante": {},
+            "sueurs nocturnes": {},
+            "perte de poids": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "fievre": {},
+            "douleur thoracique": {}
+        },
+        "antecedents": {
+            "Asthme": {},
+            "Allergies": {},
+            "Diabete": {},
+            "Hypertension": {}
+        },
+        "severity": 1
+    },
+    "Hepatite": {
+        "condition_name": "Hepatite",
+        "cond-name-fr": "Hepatite",
+        "cond-name-eng": "Hepatite",
+        "icd10-id": "Hepatite",
+        "symptoms": {
+            "nausees": {},
+            "perte d'appetit": {},
+            "urine foncee": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "douleur abdominale": {},
+            "fatigue": {},
+            "jaunisse": {}
+        },
+        "antecedents": {
+            "Diabete": {},
+            "Asthme": {},
+            "Allergies": {},
+            "Hypertension": {}
+        },
+        "severity": 1
+    },
+    "Hypertension arterielle": {
+        "condition_name": "Hypertension arterielle",
+        "cond-name-fr": "Hypertension arterielle",
+        "cond-name-eng": "Hypertension arterielle",
+        "icd10-id": "Hypertension arterielle",
+        "symptoms": {
+            "vertiges": {},
+            "essoufflement": {},
+            "vision floue": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "fatigue": {},
+            "palpitations": {},
+            "maux de tete": {}
+        },
+        "antecedents": {
+            "Hypertension": {},
+            "Diabete": {},
+            "Asthme": {},
+            "Allergies": {}
+        },
+        "severity": 1
+    },
+    "Typhoide": {
+        "condition_name": "Typhoide",
+        "cond-name-fr": "Typhoide",
+        "cond-name-eng": "Typhoide",
+        "icd10-id": "Typhoide",
+        "symptoms": {
+            "constipation": {},
+            "douleurs abdominales": {},
+            "maux de tete": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "fatigue": {},
+            "perte d'appetit": {},
+            "fievre prolongee": {}
+        },
+        "antecedents": {
+            "Allergies": {},
+            "Hypertension": {},
+            "Diabete": {},
+            "Asthme": {}
+        },
+        "severity": 1
+    },
+    "Anemie": {
+        "condition_name": "Anemie",
+        "cond-name-fr": "Anemie",
+        "cond-name-eng": "Anemie",
+        "icd10-id": "Anemie",
+        "symptoms": {
+            "vertiges": {},
+            "essoufflement": {},
+            "paleur": {},
+            "maux de tete": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "palpitations": {},
+            "fatigue": {}
+        },
+        "antecedents": {
+            "Asthme": {},
+            "Hypertension": {},
+            "Diabete": {},
+            "Allergies": {}
+        },
+        "severity": 1
+    },
+    "Dengue": {
+        "condition_name": "Dengue",
+        "cond-name-fr": "Dengue",
+        "cond-name-eng": "Dengue",
+        "icd10-id": "Dengue",
+        "symptoms": {
+            "fatigue": {},
+            "fievre elevee": {},
+            "maux de tete severes": {},
+            "douleurs articulaires": {},
+            "douleurs musculaires": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "eruption cutanee": {}
+        },
+        "antecedents": {
+            "Diabete": {},
+            "Allergies": {},
+            "Asthme": {},
+            "Hypertension": {}
+        },
+        "severity": 1
+    },
+    "Diarrhee aigue": {
+        "condition_name": "Diarrhee aigue",
+        "cond-name-fr": "Diarrhee aigue",
+        "cond-name-eng": "Diarrhee aigue",
+        "icd10-id": "Diarrhee aigue",
+        "symptoms": {
+            "vomissements": {},
+            "deshydratation": {},
+            "douleurs abdominales": {},
+            "fievre": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "faiblesse": {},
+            "diarrhee": {}
+        },
+        "antecedents": {
+            "Asthme": {},
+            "Hypertension": {},
+            "Allergies": {},
+            "Diabete": {}
+        },
+        "severity": 1
+    },
+    "Diabete": {
+        "condition_name": "Diabete",
+        "cond-name-fr": "Diabete",
+        "cond-name-eng": "Diabete",
+        "icd10-id": "Diabete",
+        "symptoms": {
+            "vision floue": {},
+            "urination frequente": {},
+            "fatigue": {},
+            "perte de poids": {},
+            "soif excessive": {},
+            "faim constante": {},
+            "gravite": {},
+            "duree_symptomes_jours": {}
+        },
+        "antecedents": {
+            "Allergies": {},
+            "Hypertension": {},
+            "Asthme": {},
+            "Diabete": {}
+        },
+        "severity": 1
+    },
+    "Infections respiratoires": {
+        "condition_name": "Infections respiratoires",
+        "cond-name-fr": "Infections respiratoires",
+        "cond-name-eng": "Infections respiratoires",
+        "icd10-id": "Infections respiratoires",
+        "symptoms": {
+            "difficultes respiratoires": {},
+            "toux": {},
+            "douleur thoracique": {},
+            "fatigue": {},
+            "congestion nasale": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "fievre": {}
+        },
+        "antecedents": {
+            "Asthme": {},
+            "Diabete": {},
+            "Allergies": {}
+        },
+        "severity": 1
+    },
+    "Infections cutanees": {
+        "condition_name": "Infections cutanees",
+        "cond-name-fr": "Infections cutanees",
+        "cond-name-eng": "Infections cutanees",
+        "icd10-id": "Infections cutanees",
+        "symptoms": {
+            "rougeurs": {},
+            "demangeaisons": {},
+            "fievre": {},
+            "douleur locale": {},
+            "gonflement": {},
+            "plaies": {},
+            "gravite": {},
+            "duree_symptomes_jours": {}
+        },
+        "antecedents": {
+            "Diabete": {},
+            "Asthme": {},
+            "Hypertension": {},
+            "Allergies": {}
+        },
+        "severity": 1
+    },
+    "Infections urinaires": {
+        "condition_name": "Infections urinaires",
+        "cond-name-fr": "Infections urinaires",
+        "cond-name-eng": "Infections urinaires",
+        "icd10-id": "Infections urinaires",
+        "symptoms": {
+            "douleur pelvienne": {},
+            "fievre": {},
+            "urine trouble": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "brulures mictionnelles": {},
+            "urination frequente": {},
+            "urgence urinaire": {}
+        },
+        "antecedents": {
+            "Allergies": {},
+            "Asthme": {},
+            "Diabete": {},
+            "Hypertension": {}
+        },
+        "severity": 1
+    },
+    "Paludisme": {
+        "condition_name": "Paludisme",
+        "cond-name-fr": "Paludisme",
+        "cond-name-eng": "Paludisme",
+        "icd10-id": "Paludisme",
+        "symptoms": {
+            "fievre": {},
+            "vomissements": {},
+            "douleurs musculaires": {},
+            "gravite": {},
+            "duree_symptomes_jours": {},
+            "frissons": {},
+            "nausees": {},
+            "maux de tete": {},
+            "fatigue": {}
+        },
+        "antecedents": {
+            "Hypertension": {},
+            "Asthme": {},
+            "Allergies": {},
+            "Diabete": {}
+        },
+        "severity": 1
+    }
+}

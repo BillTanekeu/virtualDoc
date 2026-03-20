@@ -1,0 +1,25 @@
+{
+    "description": "Hyperparamètres AARLC adaptés pour le dataset maladies_fr (15 conditions, 59 évidences, 1000 patients)",
+    "seed": 42,
+    "lr": 0.0002,
+    "gamma": 0.99,
+    "nu": 2.5,
+    "mu": 1.0,
+    "lamb": 0.99,
+    "threshold": 1.0,
+    "threshold_random_initial": false,
+    "MAXSTEP": 20,
+    "batch_size": 100,
+    "eval_batch_size": 100,
+    "EPOCHS": 2,
+    "patience": 15,
+    "no_differential": false,
+    "no_initial_evidence": false,
+    "include_turns_in_state": false,
+    "comments": {
+        "MAXSTEP": "Réduit à 20 vs 30 AARLC original : 59 évidences au lieu de 223",
+        "batch_size": "Réduit à 100 pour dataset de 800 patients train",
+        "nu": "Coefficient entropie, similaire AARLC DDXPlus (nu=2.826)",
+        "threshold": "Seuil initial adaptatif (Polyak averaging en cours d'entraînement)"
+    }
+}
