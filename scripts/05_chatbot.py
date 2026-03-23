@@ -92,8 +92,7 @@ def ask_initial_symptoms(llm: LLMInterface, env: environment) -> list[int]:
     if not user_input:
         return []
 
-    extracted = llm.extract_information(user_input)
-    symp_keys = [s["key"] for s in extracted.get("symptoms", [])]
+    symp_keys = llm.extract_initial_symptoms(user_input)
 
     found_indices = []
     for key in symp_keys:

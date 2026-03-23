@@ -207,6 +207,50 @@ class LLMInterface:
                 return opt
         return 0  # INCONNU
 
+    # ── NLU – Extraction multi-symptômes depuis texte libre ──────────────── #
+    def extract_initial_symptoms(self, user_text: str) -> list[str]:
+        """
+        Extrait la liste des clés de symptômes présents dans une description
+        libre du patient (ex: 'J'ai de la fièvre et mal à la tête').
+
+        Utilise le LLM avec la liste complète du catalogue pour identifier
+        les symptômes pertinents.
+
+        Retourne une liste de clés (str) du catalogue.
+        """
+        catalogue = ", ".join(self.symptom_keys)
+        system = (
+            "Tu es un extracteur médical. "
+            "Le patient décrit ses symptômes en texte libre. "
+            "Tu disposes du catalogue de symptômes suivant (clés séparées par des virgules) :\n"
+            f"{catalogue}\n\n"
+            "Réponds UNIQUEMENT avec les clés du catalogue qui correspondent aux symptômes "
+            "mentionnés par le patient, séparées par des virgules. "
+            "Si aucun symptôme du catalogue ne correspond, réponds AUCUN."
+        )
+        user = f"Le patient dit : \"{user_text}\""
+
+        response = self._stream(system, user, max_tokens=60, print_output=False)
+        response = response.strip()
+
+        if not response or "AUCUN" in response.upper():
+            return []
+
+        found = []
+        for part in response.split(","):
+            key = part.strip().lower()
+            # Cherche une correspondance exacte ou partielle dans le catalogue
+            if key in self.symptom_keys:
+                found.append(key)
+            else:
+                # Correspondance souple : cherche si la clé est un sous-mot
+                for sk in self.symptom_keys:
+                    if key and (key in sk or sk in key):
+                        if sk not in found:
+                            found.append(sk)
+                        break
+        return found
+
     # ── NLU – Point d'entrée unifié ───────────────────────────────────────── #
     def extract_information(self, user_text: str,
                             current_symptom: str | None = None) -> dict:
@@ -246,11 +290,14 @@ class LLMInterface:
         ctx = "antécédent" if ev.get("is_antecedent") else "symptôme"
 
         system = (
-            f"Tu es un médecin empathique. Reformule cette question sur un {ctx} "
-            "de façon naturelle et chaleureuse en UNE phrase courte. "
-            "Réponds seulement par la question, sans guillemets ni introduction."
+            "Tu es un médecin qui interroge un patient. "
+            f"Reformule la question suivante sur le {ctx} '{symptom_key}' "
+            "de façon naturelle et chaleureuse en UNE seule phrase courte. "
+            "IMPORTANT : tu poses la question AU patient (utilise 'vous'), "
+            "tu ne réponds PAS à sa place. "
+            "Ne réponds qu'avec la question reformulée, sans guillemets ni introduction."
         )
-        user = f"Question: {question_fr}"
+        user = f"Question à reformuler : {question_fr}"
 
         print("👨‍⚕️ Agent : ", end="", flush=True)
         result = self._stream(system, user, max_tokens=50,

@@ -234,7 +234,7 @@ def main():
     cond_proc_path = os.path.join(PROC_DIR, "release_conditions.json")
     with open(cond_proc_path, "w", encoding="utf-8") as f:
         json.dump(conditions, f, indent=4, ensure_ascii=False)
-    print(f"  ✅ release_conditions.json ({len(conditions)} conditions)")
+    print(f"  release_conditions.json ({len(conditions)} conditions)")
 
     # ── 3. Traiter les splits CSV ────────────────────────────────────────────
     print("\n[3/4] Discrétisation des splits CSV...")
